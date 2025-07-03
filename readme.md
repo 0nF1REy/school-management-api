@@ -49,6 +49,19 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
    Aqui você pode testar todos os endpoints da API de forma interativa.
 
+## Autenticando no Google Cloud
+
+   ```bash
+   # Faz login na sua conta Google para autenticar o gcloud
+   gcloud auth login
+
+   # Define o projeto ativo no Google Cloud
+   gcloud config set project PROJECT_ID
+
+   # Realiza o deploy da aplicação no Cloud Run especificando a porta 8000
+   gcloud run deploy --port=8000
+   ```
+
 ---
 
 ## Estrutura do Projeto
